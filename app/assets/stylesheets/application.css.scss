@@ -23,7 +23,7 @@ h1, h2{
     font-weight: 100;
 }
 
-h3, p {
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -52,21 +52,31 @@ html{
     height: 100%;
 }
 
-.navbar-brand{
+.navbar-default .navbar-brand{
     color:white;
     font-family: 'Lato', sans-serif;
-}
-
-.navbar-brand:hover{
-    color:white;
-    opacity:0.75;
-}
-
-.navbar-nav > li > a{
-    color:#F7B267;
-}
-
-.navbar-nav > li > a:hover{
-    background-color:#6290C8;
     
+    &:hover {
+        color:white;
+        opacity:0.75;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 1px solid white;
+  &:hover, &:focus {
+    background-color: #337ab7;
+  }
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:#F7B267;
+    font-weight:600;
+    
+    &:hover {
+        background-color:#6290C8;
+    }
 }
