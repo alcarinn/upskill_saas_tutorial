@@ -18,12 +18,12 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-h1{
+h1, h2{
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
 }
 
-h2{
+h3, p {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -54,6 +54,7 @@ html{
 
 .navbar-brand{
     color:white;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar-brand:hover{
