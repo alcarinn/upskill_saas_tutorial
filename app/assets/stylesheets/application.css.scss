@@ -49,3 +49,21 @@ h2{
 html{
     height: 100%;
 }
+
+.navbar-brand{
+    color:white;
+}
+
+.navbar-brand:hover{
+    color:white;
+    opacity:0.75;
+}
+
+.navbar-nav > li > a{
+    color:#F7B267;
+}
+
+.navbar-nav > li > a:hover{
+    background-color:#6290C8;
+    
+}
