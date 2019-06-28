@@ -21,19 +21,29 @@ h1{
     font-weight: 100;
 }
 
-h2, h3{
+h2{
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+.home-callout {
     background-color: #bd4f6c;
     background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+    font-weight:100;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin-top:-20px;
+    padding-top:50px;
+    padding-bottom:100px;
 }
 
 .navbar{
     border: none;
-    background-color: #29539b;
-    background-image: linear-gradient(315deg, #1e3b70 0%, #29539b 74%);
+    // background-color: #29539b;
+    // background-image: linear-gradient(315deg, #1e3b70 0%, #29539b 74%);
+    // background-color: #537895;
+    // background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    background-color:  #04619f;
+    background-image: linear-gradient(147deg, #04619f 0%, #1B2845 74%);
 }
 
 html{
